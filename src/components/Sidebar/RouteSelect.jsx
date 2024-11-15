@@ -11,10 +11,10 @@ export const RouteSelect = () => {
   return (
     <div className="space-y-1">
       <Route Icon={FiHome} selected={true} title="Dashboard" />
-      <Route Icon={FiUsers} selected={false} title="Team" />
-      <Route Icon={FiPaperclip} selected={false} title="Invoices" />
-      <Route Icon={FiLink} selected={false} title="Integrations" />
-      <Route Icon={FiDollarSign} selected={false} title="Finance" />
+      <Route Icon={FiUsers} selected={false} title="Customer" />
+      <Route Icon={FiPaperclip} selected={false} title="Calender" />
+      <Route Icon={FiLink} selected={false} title="Logout" />
+      <Route Icon={FiDollarSign} selected={false} title="Payment" />
     </div>
   );
 };

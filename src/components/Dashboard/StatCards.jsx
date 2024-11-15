@@ -1,26 +1,29 @@
 import React from "react";
 import { FiTrendingDown, FiTrendingUp } from "react-icons/fi";
+import { TbHandClick } from "react-icons/tb";
+import { MdOutlineReviews } from "react-icons/md";
+import { IoReorderFourSharp } from "react-icons/io5";
 
 export const StatCards = () => {
   return (
     <>
       <Card
-        title="Gross Revenue"
-        value="$120,054.24"
+        title="Total Clicks"
+        value={<><TbHandClick className="inline-block text-xl" /> 120,000</>} 
         pillText="2.75%"
         trend="up"
         period="From Jan 1st - Jul 31st"
       />
       <Card
-        title="Avg Order"
-        value="$27.97"
+        title="Total Views"
+        value={<><MdOutlineReviews className="inline-block text-xl" /> 17000</>} 
         pillText="1.01%"
         trend="down"
         period="From Jan 1st - Jul 31st"
       />
       <Card
-        title="Trailing Year"
-        value="$278,054.24"
+        title="Total Orders"
+        value={<><IoReorderFourSharp className="inline-block text-xl" /> 17000</>} 
         pillText="60.75%"
         trend="up"
         period="Previous 365 days"

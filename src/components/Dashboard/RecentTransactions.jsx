@@ -3,10 +3,10 @@ import { FiArrowUpRight, FiDollarSign, FiMoreHorizontal } from "react-icons/fi";
 
 export const RecentTransactions = () => {
   return (
-    <div className="col-span-12 p-4 rounded border border-stone-300">
+    <div className="col-span-8 p-4 rounded border border-stone-300">
       <div className="mb-4 flex items-center justify-between">
         <h3 className="flex items-center gap-1.5 font-medium">
-          <FiDollarSign /> Recent Transactions
+          <FiDollarSign /> Listings Last 2 Weeks 
         </h3>
         <button className="text-sm text-violet-500 hover:underline">
           See all
@@ -69,9 +69,9 @@ const TableHead = () => {
     <thead>
       <tr className="text-sm font-normal text-stone-500">
         <th className="text-start p-1.5">Customer ID</th>
-        <th className="text-start p-1.5">SKU</th>
-        <th className="text-start p-1.5">Date</th>
-        <th className="text-start p-1.5">Price</th>
+        <th className="text-start p-1.5">Leads</th>
+        <th className="text-start p-1.5">Deals</th>
+        <th className="text-start p-1.5">Tasks</th>
         <th className="w-8"></th>
       </tr>
     </thead>
